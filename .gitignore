@@ -1,0 +1,63 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the 'go tool'
+*.out
+
+# Directory for dependencies
+vendor/
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# MacOS specific files
+.DS_Store
+
+# Node specific files
+node_modules/
+
+# Coverage files
+*.cover
+*.cov
+
+# Log files
+*.log
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Generated files
+gen/
+generated/
+
+# Compiled object files
+*.o
+*.a
+
+# Local environment configuration
+.env
+.env.local
+
+# Dependency directories
+vendor/
+
+# Build output directories
+bin/
+build/
+
+# GoLand project files
+.idea/
+
+# VS Code project files
+.vscode/
+.history/
